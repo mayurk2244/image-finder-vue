@@ -69,7 +69,7 @@ export default new Vuex.Store({
       commit("setSearchTerm", payload);
     },
     async SET_IMAGES({ commit, getters }, append = false) {
-      let api_url = "http://mayurkarmarkar.com/api/image-finder";
+      let api_url = "https://mayurs-api.netlify.app/.netlify/functions/image-finder";
       commit("setImageLoadingState", true);
       let new_page_number = append ? getters.getPageNumber + 1 : 1;
       commit("setPageNumber", new_page_number);

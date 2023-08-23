@@ -1,4 +1,4 @@
-# Image Finder App
+# Image Finder 
 
 Discover and download high-quality images using the [Pixabay](https://pixabay.com/) API.
 

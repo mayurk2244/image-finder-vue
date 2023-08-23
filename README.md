@@ -1,26 +1,35 @@
-# Image Finder
+# Image Finder App
 
-- Find & download high quality images with [pixabay](https://pixabay.com/) api  
-- ## Demo Link
-- [Image Finder](https://image-finder-vue.netlify.app/)
+Discover and download high-quality images using the [Pixabay](https://pixabay.com/) API.
+
+## Features
+
+- Infinite scrolling 
+- Loading indicator
+- One-click downloads 
 
 ## Demo
+
+Check out the live demo: [Image Finder](https://image-finder-vue.netlify.app/)
+
 https://github.com/mayurk2244/image-finder-vue/assets/32235323/f8642eb7-0976-4fc9-b9a0-2fc3a574f119
 
 
-## Package Used
+## Technologies Used
 
-- [vue](https://vuejs.org/)
-- [Vuetify](https://vuetifyjs.com/en/)
+- [Vue.js](https://vuejs.org/) - A progressive JavaScript framework
+- [Vuetify](https://vuetifyjs.com/en/) - A Material Design component framework
 
 ## Deployment
 
-- [Netlify](https://www.netlify.com/)
+This project is deployed using [Netlify](https://www.netlify.com/).
 
 ## Installation
 
-- clone this repository
-- run the following command
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Run the following command to install the required npm packages:
+
 ```bash
-npm install #install npm packages
+npm install
 ```
